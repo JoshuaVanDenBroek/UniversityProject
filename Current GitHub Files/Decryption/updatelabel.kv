@@ -1,0 +1,97 @@
+<Step1>
+	BoxLayout:
+	
+		orientation: "vertical"
+		size: root.width, root.height
+		
+		Label:
+			id: keyword_label
+			text: "Please enter your Keyword: "
+			font_size: 20
+			
+		TextInput:
+			id: keyword_data
+			multiline: False
+			size_hint: (1, .5)
+			font_size: 20
+			
+		Button:
+			size_hint: (1, .5)
+			font_size: 20
+			text: "Continue"
+			on_press: root.press() 
+			on_press: root.manager.current = 'Stage2'
+		
+<Step2>
+	id: my_widget
+	BoxLayout:
+	
+		orientation: "vertical"
+		size: root.width, root.height
+		
+		padding: 50
+		spacing: 20
+		
+		Image:
+			id: my_image
+			source: ""
+		
+		FileChooserIconView:
+			id: filechooser
+			on_selection: my_widget.selected(filechooser.selection)
+			
+		Button:
+			text: "Select"
+			on_press: root.googleimage()
+			on_press: root.manager.current = 'Stage3'
+		
+		Label:
+			id: info_label
+			text: "Please only select an image containing red encrypted text"
+			font_size: 20
+			
+<Step3>
+	BoxLayout:
+	
+		orientation: "vertical"
+		size: root.width, root.height
+		
+		padding: 50
+		spacing: 20
+		
+		Label:
+			id: info_label2
+			text: "Please make sure below text is correct"
+			font_size: 20
+		
+		TextInput:
+			id: text_verify
+			hint_text: "Loading, Please Wait..."
+			text: "Please Load the Data"
+			multiline: False
+			size_hint: (1, .5)
+			font_size: 20
+			
+		Button:
+			id: decrypt_loader
+			text: "Decrypt"
+			on_press: root.manager.current = 'Stage4'
+			on_press: root.text_verification()
+			
+<Step4>
+	BoxLayout:
+	
+		orientation: "vertical"
+		size: root.width, root.height
+		
+		Label:
+			id: output_label
+			text: "Please Wait..."
+			font_size: 20
+		
+		Button:
+			id: decrypt_button
+			text: "Try Again?"
+			font_size: 20
+			on_press: root.manager.current = 'Stage1'
+

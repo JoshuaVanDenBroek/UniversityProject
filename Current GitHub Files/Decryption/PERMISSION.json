@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "premium-modem-307519",
+  "private_key_id": "659657731af6e851ac89b4c72b61437d9f066603",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCWqHR6Eh53Dchl\nGQS+mdi8vihvT3VmorQ3zi5ESy0B3V4MZU0b6ZSSj3IXeQNpz2aq4e4jJBDXD5Bi\nJSYz/Vqqz1t+4+T7HfHl5Y+Pqd8ZjkRHaKdhN3iv8CJovd/zH1WR72M7hRlMCx6W\noAGM64doJg1/a9nj60hiadX4rtrSXBg+O/wCDSbN7E+ub+zjr0JghUbA0GBGNwdP\nf0MNNihLPWBDq7YlfPaqF5VrEYPfDBfKfT/P2T+/7gxqUcdPFITe6no7mtzJW+wq\ntelctEWInaBiXqAJK1vWh9njyEEhMayjl2280m3KUQb8EKXEKVTQRocwb2MkwcRJ\nH0ooBiQJAgMBAAECggEAAJcIHmcI0TqW1pyC/1P32NZ6Was855hK525DStdzE88Y\n+NMQ1zU5iem4gHYVxU8b6klzCl2TtPjHjDbXo4oXeY1C7ygweQ63Gd6syqlCG0Ju\nAEwkM28QXtdXCAs/3Ds64CMQCuPDypFNlGOy9drzQu7z4YXxEb4OtfrWSWsZpoud\n9XCzGYQ6wdH08QOHkGA6TMoSz45KGIwciq9Lqcf6IesNgHJEpAUfSFbxMFHeKR5o\nT2VTnK6/89HPcDJdW+WPVB85BIBUUVCQVVliImBBBNY1hAUw9Gfkf8mBdSz035Ia\nS1sgtSMzCBJZRZczt0Pikzygver6xFeipIUrxT4NwQKBgQDUBdAvycwDvRFT46W+\nmUziYH0o3quPc/y+R8Jmo4O+FFcJ9JfAYE6vXmiUpbGUMBXwtwrfvmojOAE5WNVY\nQMNq5eEVaCYIA8dIUkLzVTC1/3z//UUR2A/QhPB43hrHYtQyguokWTN2gMN4vI68\nguaQkAGijHT78KJ7rcgrAXPFaQKBgQC16D2YaSL3ZyX6r3hj+S8h8YcdyDgr1zPL\ntqFxTETbpbAixZFkrXMGzOLtqvepGGFfcAX/vmP59unEypURDpBihsxZ4RpnkSK4\nffxieLtjOOCn7LGBvKl6vGc5/mueZxREVLxoWieDAD6ahzAkXMkeZ3fe2/NKpb3u\nNGUL1051oQKBgB+oxo98OISOZNn78jHlvj9HXSkPJtsC3Mik+nhNDk0ByIVqCobl\nWpqBJGid3UhdbclF68/BJSQhJr2jcCf/c66wqM2DgbpMpiM8dVbUb7OddNLcxMWH\nV8UxNJ83uxPuw/TO65uF3lNhos6SiVXIzhjkB/p3srg0FG8XYf5Z9ymRAoGBALCR\n02gjdXtsNiNVO6je8W8jQKIZ/NwhMfelOKP/Aj+qXoQB/hUZf7O0IPnNoEQUlD/N\nPyV1KxoxH8yTT4qU9nWMnsMHi1fIO0mVkOwMgOfZB8g4KjziYifuxMw4N0I0kCmb\njp5EFGJGVH4uhv5kyhunF2XNXiSxKOEVHpgVz+TBAoGBAJhYMnKyoXIOzryWBHAX\nUwFy6CisUwPU8L5jrzeMpysCADwR1OAmnuU2eLEI5w+1uN3KiLQREpyoM0goTcBO\nZhlgtLz4DBl/7LqkdB0X4HbiVSoXHbkVz6O//WQ1VoyKDF3M0IEVHlid16y8/pFn\nAKfJnFNv/bA2+PcScGUlKI99\n-----END PRIVATE KEY-----\n",
+  "client_email": "universityproject@premium-modem-307519.iam.gserviceaccount.com",
+  "client_id": "101630425830119770782",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/universityproject%40premium-modem-307519.iam.gserviceaccount.com"
+}
